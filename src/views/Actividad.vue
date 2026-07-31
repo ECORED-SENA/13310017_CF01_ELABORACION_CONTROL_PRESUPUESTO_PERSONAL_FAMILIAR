@@ -19,39 +19,38 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Diagnóstico y alistamiento del presupuesto personal',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> verificar la apropiación de los conceptos relacionados con las finanzas personales, el diagnóstico financiero, la identificación de ingresos, gastos, deudas y soportes financieros, así como los principios y elementos necesarios para el alistamiento y la elaboración del presupuesto personal.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
         {
           id: 1,
-          texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué permite identificar el diagnóstico financiero personal?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'El valor de los impuestos nacionales.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La utilidad neta de una empresa.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'La situación económica real de una persona o familia.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La nómina mensual de una organización.',
               esCorrecta: false,
             },
           ],
@@ -61,29 +60,29 @@ export default {
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: '¿Cuál es el propósito de las finanzas personales?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Administrar los recursos económicos para cubrir necesidades, obligaciones y metas.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Elaborar únicamente estados financieros empresariales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Calcular inventarios y costos industriales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Registrar solo compras realizadas en efectivo.',
               esCorrecta: false,
             },
           ],
@@ -92,28 +91,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Cuál de los siguientes elementos corresponde a un ingreso fijo?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Una bonificación ocasional.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Una venta esporádica.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Un salario mensual.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un préstamo solicitado.',
               esCorrecta: false,
             },
           ],
@@ -122,29 +122,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: 'Un ingreso variable es aquel que:',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Se recibe siempre por el mismo valor.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Cambia según ventas, turnos, comisiones o servicios.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Solo se recibe una vez al año.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Corresponde a una deuda familiar.',
               esCorrecta: false,
             },
           ],
@@ -153,29 +152,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto: '¿Cuál de los siguientes gastos se considera fijo?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Compra ocasional de postres.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Salida recreativa no planeada.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Compra impulsiva de ropa.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Arriendo mensual.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -183,29 +182,28 @@ export default {
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+          texto: '¿Qué caracteriza a un gasto variable?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Tiene siempre el mismo valor.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Se paga solo una vez en la vida.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Cambia según el consumo o las decisiones personales.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'No debe registrarse en el presupuesto.',
               esCorrecta: false,
             },
           ],
@@ -214,29 +212,28 @@ export default {
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+          texto: '¿Por qué es importante diferenciar necesidades y deseos?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Porque permite priorizar los gastos indispensables.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Porque todos los deseos deben pagarse primero.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Porque las necesidades se pueden ignorar.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Porque evita registrar los gastos familiares.',
               esCorrecta: false,
             },
           ],
@@ -245,29 +242,28 @@ export default {
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+          texto: '¿Cuál acción ayuda a mejorar los hábitos de consumo?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Comprar sin revisar precios.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Registrar los gastos frecuentes.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Usar crédito sin planeación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Gastar antes de separar pagos básicos.',
               esCorrecta: false,
             },
           ],
@@ -276,29 +272,29 @@ export default {
         },
         {
           id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: '¿Qué es un presupuesto personal?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Un documento exclusivo para empresas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Un cálculo de impuestos comerciales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto:
+                'Una herramienta para organizar ingresos, gastos, deudas, ahorro y metas.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Una lista de productos deseados.',
               esCorrecta: false,
             },
           ],
@@ -307,30 +303,29 @@ export default {
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+          texto: 'El principio de realismo en el presupuesto significa:',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Registrar valores aproximados sin verificar.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Anotar únicamente los ingresos más altos.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Omitir gastos pequeños para equilibrar el presupuesto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Usar información cercana a la situación económica real.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -338,29 +333,28 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Cuál es un componente básico del presupuesto personal?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Inventario empresarial.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Ingresos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Depreciación industrial.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Nómina de empleados.',
               esCorrecta: false,
             },
           ],
@@ -369,29 +363,29 @@ export default {
         },
         {
           id: 12,
-          texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+          texto: '¿Por qué deben registrarse las deudas en el presupuesto?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Porque aumentan el ingreso disponible.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'Porque permiten conocer cuotas, fechas, saldos y compromisos.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Porque reemplazan el ahorro.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Porque no afectan la capacidad de pago.',
               esCorrecta: false,
             },
           ],
@@ -400,29 +394,28 @@ export default {
         },
         {
           id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Qué debe revisarse antes de aceptar una financiación?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Solo el valor de la primera cuota.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'El color del formato presupuestal.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Cuota, plazo, tasa, valor total y capacidad de pago.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Únicamente la fecha de compra.',
               esCorrecta: false,
             },
           ],
@@ -431,29 +424,28 @@ export default {
         },
         {
           id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+          texto: '¿Qué es un soporte financiero?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Un documento que respalda un movimiento económico.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Una meta sin valor definido.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Una opinión sobre el dinero.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Un deseo de compra futura.',
               esCorrecta: false,
             },
           ],
@@ -463,28 +455,183 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Cuál de los siguientes documentos puede ser un soporte financiero?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Lista de compras personales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Comentario verbal sin registro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Publicidad de una tienda.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Recibo de servicios públicos.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: 'La guía técnica para elaborar presupuestos se entiende como:',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Una ruta organizada para preparar, clasificar y registrar información financiera.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Una norma tributaria empresarial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Un documento exclusivo para bancos.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Una lista de compras personales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Cuándo puede ser útil un formato físico de presupuesto?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Cuando no se desea registrar ningún gasto.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Cuando la persona prefiere registrar información en papel o cuaderno.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Cuando se necesita eliminar soportes financieros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cuando solo se quieren anotar deseos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto: '¿Cuál es una ventaja de usar una hoja electrónica?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Evita registrar ingresos y gastos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Elimina las deudas automáticamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Realiza cálculos automáticos y permite actualizar datos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Reemplaza la revisión del presupuesto.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Qué representa la capacidad de pago?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El total de ingresos sin descontar compromisos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El valor máximo que una persona desea gastar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El dinero recibido de forma ocasional.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto:
+                'El dinero disponible después de cubrir gastos, costos, deudas y obligaciones prioritarias.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Para qué sirve la lista de verificación antes de elaborar el presupuesto?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Para confirmar que la información esté completa, organizada y lista para registrarse.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Para reemplazar los soportes financieros.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Para evitar clasificar ingresos y gastos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Para registrar solo gastos variables.',
               esCorrecta: false,
             },
           ],

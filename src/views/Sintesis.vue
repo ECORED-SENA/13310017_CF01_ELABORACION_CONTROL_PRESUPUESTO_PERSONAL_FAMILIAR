@@ -2,11 +2,11 @@
   .curso-main-container.pb-3
     BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum.
+      p A continuación, se presenta una síntesis de la temática estudiada en el componente formativo. 
       .row.justify-content-center
-        .col-lg-10.mb-5.bgs.p-4.brad
+        .col-lg-12.mb-5.bgs.p-4.brad
           figure
-            img(src="@/assets/curso/sintesis.svg", alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris eu tincidunt erat. Fusce cursus mauris in nulla egestas vulputate. Phasellus viverra accumsan libero, sed luctus diam maximus euismod. Mauris sem risus, tincidunt vel libero in, lobortis commodo ante. Sed pulvinar luctus orci in rhoncus. Nulla ut dapibus risus, ac tempor est. Donec nulla augue, vehicula quis malesuada vitae, fermentum non nisi. Donec tincidunt nibh a magna bibendum rutrum. ")
+            img(src="@/assets/curso/sintesis.svg", alt="El diagnóstico y alistamiento del presupuesto personal permite organizar las finanzas de una persona o núcleo familiar a partir de la identificación de ingresos, gastos, costos, deudas, necesidades, hábitos de consumo y componentes presupuestales. Además, integra criterios normativos, éticos y técnicos para registrar información real, seleccionar formatos físicos o electrónicos, utilizar herramientas digitales y aplicar conceptos básicos de matemática financiera. De esta manera, se prepara la información necesaria para construir un presupuesto coherente con la realidad económica, útil para planear, controlar recursos y tomar decisiones responsables frente al manejo del dinero.")
         .col-auto
           a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
             .anexo__icono
