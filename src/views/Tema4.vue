@@ -228,8 +228,8 @@
             img(src="@/assets/curso/temas/t1/img40.svg" style="max-width: 60px").m-auto
         .col
           h3 Ejemplo práctico
-      p Laura Gómez vive con su hijo y desea organizar su presupuesto del mes de julio de 2026. Durante este periodo recibe un salario de #[b $1.500.000] y obtiene #[b $250.000] adicionales por la venta de postres. Sus gastos corresponden a arriendo por #[b $500.000], servicios de agua y energía por #[b $180.000], transporte por #[b $120.000], alimentación por #[b $320.000], cuota de préstamo por #[b $150.000] y ahorro para fondo de emergencia por #[b $100.000].
-      p.mb-5 Para elaborar la hoja de cálculo, se crean columnas para la fecha, la categoría, el concepto, los ingresos, los gastos y el saldo acumulado. En cada fila se registra un movimiento financiero, ubicando los ingresos y los gastos en sus respectivas columnas. El saldo acumulado se obtiene sumando los ingresos y restando los gastos conforme se registran los movimientos. Al finalizar el periodo, Laura registra ingresos por #[b $1.750.000], gastos por #[b $1.370.000] y un saldo disponible de #[b $380.000]. La siguiente información ejemplifica el registro de un presupuesto personal en una hoja de cálculo.
+      p Laura Gómez vive con su hijo y desea organizar su presupuesto del mes de julio de 2026. Durante este periodo recibe un salario de #[b $ 1.500.000] y obtiene #[b $ 250.000] adicionales por la venta de postres. Sus gastos corresponden a arriendo por #[b $ 500.000], servicios de agua y energía por #[b $ 180.000], transporte por #[b $ 120.000], alimentación por #[b $ 320.000], cuota de préstamo por #[b $ 150.000] y ahorro para fondo de emergencia por #[b $ 100.000].
+      p.mb-5 Para elaborar la hoja de cálculo, se crean columnas para la fecha, la categoría, el concepto, los ingresos, los gastos y el saldo acumulado. En cada fila se registra un movimiento financiero, ubicando los ingresos y los gastos en sus respectivas columnas. El saldo acumulado se obtiene sumando los ingresos y restando los gastos conforme se registran los movimientos. Al finalizar el periodo, Laura registra ingresos por #[b $ 1.750.000], gastos por #[b $ 1.370.000] y un saldo disponible de #[b $ 380.000]. La siguiente información ejemplifica el registro de un presupuesto personal en una hoja de cálculo.
       .bg___color_2
         .px-5
           .row.justify-content-center.mb-5
@@ -252,63 +252,63 @@
                       td.ajuste-border-tabla.texto-left.text-weight-bold 01/07/2026
                       td.ajuste-border-tabla.texto-left Ingreso
                       td.ajuste-border-tabla.texto-left Salario
-                      td.ajuste-border-tabla.texto-left $1.500.000
+                      td.ajuste-border-tabla.texto-left $ 1.500.000
                       td.ajuste-border-tabla.texto-left 
-                      td.texto-left $1.500.000
+                      td.texto-left $ 1.500.000
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold 03/07/2026
                       td.ajuste-border-tabla.texto-left Ingreso
                       td.ajuste-border-tabla.texto-left Venta de postres
-                      td.ajuste-border-tabla.texto-left $250.000
+                      td.ajuste-border-tabla.texto-left $ 250.000
                       td.ajuste-border-tabla.texto-left 
-                      td.texto-left $1.750.000
+                      td.texto-left $ 1.750.000
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold 05/07/2026
                       td.ajuste-border-tabla.texto-left Vivienda
                       td.ajuste-border-tabla.texto-left Arriendo
                       td.ajuste-border-tabla.texto-left 
-                      td.ajuste-border-tabla.texto-left $500.000
-                      td.texto-left $1.250.000
+                      td.ajuste-border-tabla.texto-left $ 500.000
+                      td.texto-left $ 1.250.000
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold 06/07/2026
                       td.ajuste-border-tabla.texto-left Servicios
                       td.ajuste-border-tabla.texto-left Agua y energía
                       td.ajuste-border-tabla.texto-left 
-                      td.ajuste-border-tabla.texto-left $180.000
-                      td.texto-left $1.070.000
+                      td.ajuste-border-tabla.texto-left $ 180.000
+                      td.texto-left $ 1.070.000
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold 08/07/2026
                       td.ajuste-border-tabla.texto-left Transporte
                       td.ajuste-border-tabla.texto-left Pasajes
                       td.ajuste-border-tabla.texto-left 
-                      td.ajuste-border-tabla.texto-left $120.000
-                      td.texto-left $950.000
+                      td.ajuste-border-tabla.texto-left $ 120.000
+                      td.texto-left $ 950.000
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold 10/07/2026
                       td.ajuste-border-tabla.texto-left Alimentación
                       td.ajuste-border-tabla.texto-left Mercado
                       td.ajuste-border-tabla.texto-left 
-                      td.ajuste-border-tabla.texto-left $320.000
-                      td.texto-left $630.000
+                      td.ajuste-border-tabla.texto-left $ 320.000
+                      td.texto-left $ 630.000
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold 12/07/2026
                       td.ajuste-border-tabla.texto-left Deuda
                       td.ajuste-border-tabla.texto-left Cuota préstamo
                       td.ajuste-border-tabla.texto-left 
-                      td.ajuste-border-tabla.texto-left $150.000
-                      td.texto-left $480.000
+                      td.ajuste-border-tabla.texto-left $ 150.000
+                      td.texto-left $ 480.000
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold 15/07/2026
                       td.ajuste-border-tabla.texto-left Ahorro
                       td.ajuste-border-tabla.texto-left Fondo de emergencia
                       td.ajuste-border-tabla.texto-left 
-                      td.ajuste-border-tabla.texto-left $100.000
-                      td.texto-left $380.000
+                      td.ajuste-border-tabla.texto-left $ 100.000
+                      td.texto-left $ 380.000
                     tr.ajuste-color-tabla
                       td(colspan="3").ajuste-border-tabla.texto-left.text-weight-bold Totales
-                      td.ajuste-border-tabla.texto-left.text-weight-bold $1.750.000
-                      td.ajuste-border-tabla.texto-left.text-weight-bold $1.370.000
-                      td.texto-left.text-weight-bold $380.000
+                      td.ajuste-border-tabla.texto-left.text-weight-bold $ 1.750.000
+                      td.ajuste-border-tabla.texto-left.text-weight-bold $ 1.370.000
+                      td.texto-left.text-weight-bold $ 380.000
           p.mb-0 Este ejemplo presenta  cómo un formato electrónico facilita el registro ordenado de los movimientos financieros y permite conocer, de manera inmediata, el saldo disponible para la toma de decisiones. 
       Separador
       #t_4_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -527,7 +527,7 @@
             img(src="@/assets/curso/temas/t1/img40.svg" style="max-width: 60px").m-auto
         .col
           h3 Ejemplo práctico
-      p.mb-5 Carlos Ramírez desea elaborar su presupuesto correspondiente al mes de agosto. Durante este período recibe un salario mensual de #[b $1.800.000] y obtiene #[b $300.000] adicionales por trabajos de reparación. Sus compromisos incluyen #[b $600.000] de arriendo, #[b $220.000] de servicios públicos, #[b $350.000] de alimentación, #[b $160.000] de transporte, #[b $200.000] por una cuota de crédito, #[b $100.000] destinados a materiales para los trabajos de reparación y #[b $150.000] para ahorro. Con esta información organiza su presupuesto para identificar los ingresos, las salidas de dinero y el saldo disponible. Esta tabla presenta un ejemplo del registro inicial de ingresos, gastos, costos, deudas, ahorro y saldo disponible durante un período mensual.
+      p.mb-5 Carlos Ramírez desea elaborar su presupuesto correspondiente al mes de agosto. Durante este período recibe un salario mensual de #[b $ 1.800.000] y obtiene #[b $ 300.000] adicionales por trabajos de reparación. Sus compromisos incluyen #[b $ 600.000] de arriendo, #[b $ 220.000] de servicios públicos, #[b $ 350.000] de alimentación, #[b $ 160.000] de transporte, #[b $ 200.000] por una cuota de crédito, #[b $ 100.000] destinados a materiales para los trabajos de reparación y #[b $ 150.000] para ahorro. Con esta información organiza su presupuesto para identificar los ingresos, las salidas de dinero y el saldo disponible. Esta tabla presenta un ejemplo del registro inicial de ingresos, gastos, costos, deudas, ahorro y saldo disponible durante un período mensual.
       .bg___color_1
         .px-5
           .row.justify-content-center.mb-5
@@ -546,48 +546,48 @@
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Ingreso fijo
                       td.ajuste-border-tabla.texto-left Salario mensual
-                      td.texto-left $1.800.000
+                      td.texto-left $ 1.800.000
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Ingreso variable
                       td.ajuste-border-tabla.texto-left Trabajos de reparación
-                      td.texto-left $300.000
+                      td.texto-left $ 300.000
                     tr
                       td(colspan="2").ajuste-border-tabla.texto-left.text-weight-bold Total ingresos
-                      td.texto-left.text-weight-bold $2.100.000
+                      td.texto-left.text-weight-bold $ 2.100.000
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Gasto fijo
                       td.ajuste-border-tabla.texto-left Arriendo
-                      td.texto-left $600.000
+                      td.texto-left $ 600.000
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Gasto fijo
                       td.ajuste-border-tabla.texto-left Servicios públicos
-                      td.texto-left $220.000
+                      td.texto-left $ 220.000
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Gasto variable
                       td.ajuste-border-tabla.texto-left Alimentación
-                      td.texto-left $350.000
+                      td.texto-left $ 350.000
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Gasto variable
                       td.ajuste-border-tabla.texto-left Transporte
-                      td.texto-left $160.000
+                      td.texto-left $ 160.000
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Deuda
                       td.ajuste-border-tabla.texto-left Cuota de crédito
-                      td.texto-left $200.000
+                      td.texto-left $ 200.000
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Costo
                       td.ajuste-border-tabla.texto-left Materiales para reparación
-                      td.texto-left $100.000
+                      td.texto-left $ 100.000
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Ahorro
                       td.ajuste-border-tabla.texto-left Reserva mensual
-                      td.texto-left $150.000
+                      td.texto-left $ 150.000
                     tr
                       td(colspan="2").ajuste-border-tabla.texto-left.text-weight-bold Total salidas
-                      td.texto-left.text-weight-bold  $1.780.000
+                      td.texto-left.text-weight-bold  $ 1.780.000
                     tr.ajuste-color-tabla
                       td(colspan="2").ajuste-border-tabla.texto-left.text-weight-bold Saldo disponible
-                      td.texto-left.text-weight-bold  $320.000
+                      td.texto-left.text-weight-bold  $ 320.000
           .row.justify-content-center.align-items-center.mb-5
             .col-xl.mb-4.mb-lg-0
               .box___style_2.fit___box_5(data-aos="fade-right")

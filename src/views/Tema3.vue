@@ -199,7 +199,7 @@
                 figure
                   img(src='@/assets/curso/temas/t3/img19.jpg', alt='').m-auto
               .col-xl.fit___box_container
-                p.mb-0 La veracidad exige registrar información real y sustentada en datos comprobables. La responsabilidad implica asumir compromisos de acuerdo con la capacidad económica y cumplir oportunamente las obligaciones. La transparencia adquiere especial importancia cuando el presupuesto involucra a varias personas del hogar, ya que favorece acuerdos sobre gastos, ahorro y metas comunes. Por su parte, la prudencia orienta la toma de decisiones evitando comprometer recursos con ingresos inciertos o asumir obligaciones sin analizar previamente sus consecuencias. Finalmente, la organización y la corresponsabilidad contribuyen a conservar la información financiera y fortalecer la administración compartida de los recursos. 
+                p.mb-0 La veracidad exige registrar información real y sustentada en datos comprobables. La responsabilidad implica asumir compromisos de acuerdo con la capacidad económica y cumplir oportunamente las obligaciones. La transparencia adquiere especial importancia cuando el presupuesto involucra a varias personas del hogar, ya que favorece acuerdos sobre gastos, ahorro y metas comunes. Por su parte, la prudencia orienta la toma de decisiones, evitando comprometer recursos con ingresos inciertos o asumir obligaciones sin analizar previamente sus consecuencias. Finalmente, la organización y la corresponsabilidad contribuyen a conservar la información financiera y fortalecer la administración compartida de los recursos. 
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t3/img20.png', alt='').m-auto

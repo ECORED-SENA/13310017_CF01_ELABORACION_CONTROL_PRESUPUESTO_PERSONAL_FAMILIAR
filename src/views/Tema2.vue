@@ -303,31 +303,31 @@
                   tbody
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Crédito de consumo
-                      td.ajuste-border-tabla.texto-left $2.000.000
-                      td.ajuste-border-tabla.texto-left $180.000
+                      td.ajuste-border-tabla.texto-left $ 2.000.000
+                      td.ajuste-border-tabla.texto-left $ 180.000
                       td.ajuste-border-tabla.texto-left Día 15
-                      td.ajuste-border-tabla.texto-left $1.400.000
+                      td.ajuste-border-tabla.texto-left $ 1.400.000
                       td.texto-left Priorizar el pago puntual.
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Préstamo familiar
-                      td.ajuste-border-tabla.texto-left $600.000
-                      td.ajuste-border-tabla.texto-left $100.000
+                      td.ajuste-border-tabla.texto-left $ 600.000
+                      td.ajuste-border-tabla.texto-left $ 100.000
                       td.ajuste-border-tabla.texto-left Día 30
-                      td.ajuste-border-tabla.texto-left $300.000
+                      td.ajuste-border-tabla.texto-left $ 300.000
                       td.texto-left Acordar fechas claras.
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold Compra a cuotas
-                      td.ajuste-border-tabla.texto-left $480.000
-                      td.ajuste-border-tabla.texto-left $80.000
+                      td.ajuste-border-tabla.texto-left $ 480.000
+                      td.ajuste-border-tabla.texto-left $ 80.000
                       td.ajuste-border-tabla.texto-left Día 10
-                      td.ajuste-border-tabla.texto-left $240.000
+                      td.ajuste-border-tabla.texto-left $ 240.000
                       td.texto-left Evitar nuevas compras a cuotas.
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold Servicio pendiente
-                      td.ajuste-border-tabla.texto-left $150.000
-                      td.ajuste-border-tabla.texto-left $150.000
+                      td.ajuste-border-tabla.texto-left $ 150.000
+                      td.ajuste-border-tabla.texto-left $ 150.000
                       td.ajuste-border-tabla.texto-left Día 5
-                      td.ajuste-border-tabla.texto-left $150.000
+                      td.ajuste-border-tabla.texto-left $ 150.000
                       td.texto-left Pago inmediato para evitar recargos.
           p.mb-0 Registrar las obligaciones financieras permite conocer el nivel de endeudamiento, programar los pagos y disminuir el riesgo de incumplimientos que afecten la estabilidad económica.
       Separador

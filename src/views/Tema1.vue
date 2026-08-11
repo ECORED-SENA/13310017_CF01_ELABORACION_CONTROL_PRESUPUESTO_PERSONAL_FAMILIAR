@@ -190,7 +190,7 @@
               img(src='@/assets/curso/temas/t1/img23.png', alt='').m-auto
           .col-xl.fit___box_container
             h5 Ejemplo aplicado
-            p.mb-0 Una persona recibe #[b $1.800.000] mensuales y, además, vende productos durante los fines de semana. Si no separa el dinero obtenido por las ventas, puede considerar que dispone de más recursos para gastos personales. Sin embargo, antes de utilizar esos ingresos debe descontar el costo de los insumos, el transporte, los empaques y la reposición de mercancía. Al aplicar principios de finanzas personales, identifica qué recursos pertenecen al hogar, cuáles corresponden a la actividad económica y cuánto dinero está realmente disponible para ahorrar, pagar deudas o atender las necesidades familiares.
+            p.mb-0 Una persona recibe #[b $ 1.800.000] mensuales y, además, vende productos durante los fines de semana. Si no separa el dinero obtenido por las ventas, puede considerar que dispone de más recursos para gastos personales. Sin embargo, antes de utilizar esos ingresos, debe descontar el costo de los insumos, el transporte, los empaques y la reposición de mercancía. Al aplicar principios de finanzas personales, identifica qué recursos pertenecen al hogar, cuáles corresponden a la actividad económica y cuánto dinero está realmente disponible para ahorrar, pagar deudas o atender las necesidades familiares.
       Separador
       #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.5 Hábitos de consumo y manejo del dinero
@@ -458,7 +458,7 @@
                 img(src="@/assets/curso/temas/t1/img40.svg" style="max-width: 60px").m-auto
             .col
               h3 Ejemplo aplicado al diagnóstico inicial
-          p.mb-5 Laura vive con su pareja y un hijo. Recibe un salario mensual de #[b $1.600.000] y, algunos fines de semana, obtiene ingresos adicionales por la venta de almuerzos. Antes de elaborar su presupuesto, registra durante un mes sus ingresos y gastos. Identifica que paga #[b $500.000] de arriendo, #[b $210.000] de servicios públicos, #[b $350.000] de alimentación, #[b $180.000] de transporte, #[b $160.000] por una deuda, #[b $90.000] de comunicación y cerca de #[b $250.000] en compras no planificadas. También identifica que, cuando vende almuerzos, no separa el costo de los ingredientes, los empaques, el gas y el transporte, por lo que desconoce la ganancia real obtenida.
+          p.mb-5 Laura vive con su pareja y un hijo. Recibe un salario mensual de #[b $ 1.600.000] y, algunos fines de semana, obtiene ingresos adicionales por la venta de almuerzos. Antes de elaborar su presupuesto, registra durante un mes sus ingresos y gastos. Identifica que paga #[b $ 500.000] de arriendo, #[b $ 210.000] de servicios públicos, #[b $ 350.000] de alimentación, #[b $ 180.000] de transporte, #[b $ 160.000] por una deuda, #[b $ 90.000] de comunicación y cerca de #[b $ 250.000] en compras no planificadas. También identifica que, cuando vende almuerzos, no separa el costo de los ingredientes, los empaques, el gas y el transporte, por lo que desconoce la ganancia real obtenida.
           .box___style_1(data-aos="zoom-in").mb-5
             .row.align-items-center
               .col-xl-auto
