@@ -154,7 +154,7 @@
       p.mb-5 A continuación, se presenta un video que explica cómo las finanzas personales se reflejan en las decisiones económicas cotidianas, destacando la importancia de la planificación, el presupuesto, el uso responsable del crédito y la adecuada administración de los recursos financieros.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/KWykrqsbzg8" title="Las finanzas personales en la vida cotidiana" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption.fit___figcaption-video Video. Las finanzas personales en la vida cotidiana
       p.mb-5 El siguiente ejemplo reúne algunas situaciones cotidianas en las que se aplican las finanzas personales:
       .row.justify-content-center.mb-5
