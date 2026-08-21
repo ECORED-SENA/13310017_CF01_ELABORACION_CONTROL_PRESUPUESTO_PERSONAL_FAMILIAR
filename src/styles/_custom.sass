@@ -53,8 +53,6 @@
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
-  @media screen and (max-width: 1200px)
-    width: 95% !important
   @media screen and (max-width: 576px)
     padding: 6rem 3rem !important
 
@@ -62,7 +60,7 @@
   width: 370px !important
   padding-bottom: 0 !important
   padding-top: 0 !important
-  @media screen and (max-width: 1200px)
+  @media screen and (min-width: 1200px)
     width: 380px !important
   @media screen and (min-width: 1400px)
     width: 400px !important
@@ -77,6 +75,32 @@
 
 .titulo-principal__numero span
   color: $color-sistema-texto !important
+
+/**************************************************************/
+/*Media Queries*/  
+/**************************************************************/
+
+//// DESKTOP SMALL 1400--------------------------------------
+@media screen and (max-width: $bp-min-xxl)
+  .mb-cus
+    margin-bottom: 2em !important
+
+//// TABLET 992--------------------------------------
+@media screen and (max-width: $bp-max-md)
+  .mb-cus
+    margin-bottom: 2em !important
+  .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
+    width: 90% !important
+
+//// TABLET MINI 768--------------------------------------
+@media screen and (max-width: $bp-min-md)
+  .mb-cus
+    margin-bottom: 2em !important
+
+//// MOBILE 576--------------------------------------
+@media screen and (max-width: $bp-min-sm)
+  .mb-cus
+    margin-bottom: 2em !important
 
 /* ===================================
           TITULOS TERCER NIVEL
