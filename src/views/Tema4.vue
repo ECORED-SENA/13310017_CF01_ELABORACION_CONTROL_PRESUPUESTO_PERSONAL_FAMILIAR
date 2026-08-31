@@ -608,7 +608,7 @@
             h4 Herramientas y conceptos básicos para el alistamiento
             p.mb-0 Se invita a leer el documento #[b Herramientas y conceptos básicos para el alistamiento], donde se aborda la preparación del presupuesto personal mediante el uso de herramientas digitales y conceptos fundamentales de matemática financiera.
           .col-xl-2
-            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Herramientas_conceptos_basicos_para_alistamiento.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Anexo_01_Herramientas_Conceptos_Basicos_Alistamiento.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
 
