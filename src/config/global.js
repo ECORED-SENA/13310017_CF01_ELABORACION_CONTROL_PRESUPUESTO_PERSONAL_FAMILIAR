@@ -365,7 +365,7 @@ export default {
     },
     {
       referencia:
-        'Congreso de la República de Colombia. (1993, 22 de diciembre). Ley 99 de 1993, por la cual se crea el Ministerio del Medio Ambiente, se reordena el sector público encargado de la gestión y conservación del medio ambiente y los recursos naturales renovables, se organiza el Sistema Nacional Ambiental (SINA) y se dictan otras disposiciones. Función Pública. ',
+        'Congreso de la República de Colombia. (1993, 22 de diciembre). Ley 99 de 1993, por la cual se crea el Ministerio del Medio Ambiente, se reordena el Sector Público encargado de la gestión y conservación del medio ambiente y los recursos naturales renovables, se organiza el Sistema Nacional Ambiental, SINA, y se dictan otras disposiciones.',
       link: 'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=297',
     },
     {
@@ -384,7 +384,7 @@ export default {
     },
     {
       referencia:
-        'Ministerio de Educación Nacional. (2022). Mi plan vida y futuro. Orientaciones pedagógicas para la educación económica y financiera. ',
+        'Ministerio de Educación Nacional. (2022). Mi plan, mi vida y mi futuro. Orientaciones pedagógicas para la educación económica y financiera. ',
       link: 'https://www.mineducacion.gov.co/1780/articles-340033_Orientaciones_Edu_economica_financiera_vfinal.pdf',
     },
     {
@@ -405,7 +405,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable del ecosistema virtual de recursos educativos digitales',
+            'Profesional G06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -473,13 +473,13 @@ export default {
         },
         {
           nombre: 'Maria Carolina Tamayo Lopez',
-          cargo: 'Locución',
+          cargo: 'locutora',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'German Acosta Ramos',
-          cargo: 'Locución',
+          cargo: 'locutor',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -489,13 +489,13 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Ricardo Oliveros Zambrano',
-          cargo: 'Validador de recursos educativos digitales',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validadora de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Aixa Natalia Sendoya Fernández',
+          nombre: 'Ricardo Oliveros Zambrano',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',

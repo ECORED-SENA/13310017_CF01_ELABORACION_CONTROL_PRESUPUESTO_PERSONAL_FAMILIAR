@@ -7,7 +7,7 @@
           span 2
         h1 Presupuesto personal y sus componentes
       p.mb-5 El presupuesto personal es una herramienta que permite #[b organizar la información económica] de una persona o de un núcleo familiar para comprender la relación entre los recursos que recibe y los compromisos que debe atender. Su importancia radica en que transforma los ingresos, los gastos, los costos, las deudas y las metas en una estructura organizada que facilita la planeación financiera y la toma de decisiones. Cuando se elabora con información real y actualizada, permite identificar si los recursos disponibles son suficientes, reconocer los gastos que requieren ajustes y verificar si las obligaciones asumidas corresponden a la capacidad económica.
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center
         .col-xl.mb-4.mb-lg-0
           .box___style_1(data-aos="zoom-in")
             .row.align-items-center
@@ -19,6 +19,7 @@
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t2/img2.png', alt='').m-auto
+      Separador
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.1 Concepto de presupuesto personal
       p.mb-5 El presupuesto personal es una herramienta de planeación que permite organizar #[b los ingresos, los gastos, las deudas, el ahorro y las metas] financieras de una persona o de un núcleo familiar durante un periodo determinado. Su principal utilidad consiste en registrar de manera ordenada cuánto dinero ingresa, cuánto dinero se destina a los diferentes compromisos económicos y qué recursos pueden asignarse al ahorro o al cumplimiento de objetivos futuros. En este sentido, el presupuesto no debe entenderse únicamente como una relación de cifras, sino como un instrumento que orienta la toma de decisiones sobre el uso responsable del dinero.
@@ -26,12 +27,12 @@
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t2/img3.jpg')})` }")
         .bloque-texto-g__texto.p-4
-          p.mb-0 En las finanzas personales, el presupuesto permite transformar la información obtenida durante el diagnóstico financiero en un #[b plan de organización económica]. Después de identificar los ingresos, los gastos, las necesidades y las deudas, es posible distribuir los recursos de acuerdo con las prioridades y la capacidad real de pago. De esta manera, el presupuesto cumple una función preventiva al evitar que los gastos superen el ingreso disponible y una función proyectiva al orientar recursos hacia el logro de metas personales o familiares (Ministerio de Educación, 2022).
+          p.mb-0 En las finanzas personales, el presupuesto permite transformar la información obtenida durante el diagnóstico financiero en un #[b plan de organización económica]. Después de identificar los ingresos, los gastos, las necesidades y las deudas, es posible distribuir los recursos de acuerdo con las prioridades y la capacidad real de pago. De esta manera, el presupuesto cumple una función preventiva al evitar que los gastos superen el ingreso disponible y una función proyectiva al orientar recursos hacia el logro de metas personales o familiares (Ministerio de Educación Nacional, 2022).
       p.mb-0 El presupuesto personal constituye, por tanto, una herramienta de apoyo para administrar los recursos de manera organizada, facilitar el seguimiento de la situación financiera y promover decisiones acordes con las posibilidades económicas de cada persona o núcleo familiar.
       Separador
       #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.2 Principios del presupuesto
-      p.mb-5 Los principios del presupuesto son orientaciones que permiten elaborarlo de manera organizada, realista y útil. En el ámbito personal, estos principios favorecen que la información registrada sea clara, completa y coherente con la situación económica de la persona o del núcleo familiar. Un #[b presupuesto elaborado] sin estos criterios puede convertirse en un formato con datos registrados, pero sin capacidad para orientar la toma de decisiones. Por ello, antes de elaborarlo, es importante conocer los principios que orientan su construcción y aplicación. Los principales principios que orientan la organización de un presupuesto personal y su aplicación en el manejo de las finanzas cotidianas se presentan a continuación:
+      p.mb-5 Los principios del presupuesto son orientaciones que permiten elaborarlo de manera organizada, realista y útil. En el ámbito personal, estos principios favorecen que la información registrada sea clara, completa y coherente con la situación económica de la persona o del núcleo familiar. Un #[b presupuesto elaborado] sin estos criterios puede convertirse en un formato con datos registrados, pero sin capacidad para orientar la toma de decisiones. Por ello, antes de elaborarlo, es importante conocer los principios que orientan su construcción y aplicación. Los principios que orientan la organización de un presupuesto personal y su aplicación en el manejo de las finanzas cotidianas se presentan a continuación:
       .bg___slider.mb-5
         .px-5
           .ajuste-slider(data-aos="zoom-in")
@@ -99,7 +100,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t2/img11.png", alt="" ).m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Planificado").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Anticipa el uso de los recursos antes de realizar los gastos. Por ejemplo, separar dinero para arriendo, alimentación y transporte antes de efectuar otros consumos.
             .row(titulo="Ordenado").ajuste-cajaAcordion.ajuste-vineta
@@ -229,7 +230,7 @@
             img(src='@/assets/curso/temas/t1/img3.svg', alt='' style="width: 70px")
           p.mb-0 En el presupuesto personal, los ingresos pueden clasificarse como fijos, variables u ocasionales; los gastos pueden organizarse en fijos y variables; y los costos adquieren especial importancia cuando la persona desarrolla actividades independientes, presta servicios o administra un pequeño emprendimiento. Diferenciar estos componentes evita confundir el dinero recibido con los recursos realmente disponibles para el hogar. 
       p.mb-5 Los principales componentes del presupuesto personal y su función dentro de la organización financiera se resumen a continuación:
-      SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+      SlyderF(columnas="col-lg-6 col-xl-4" data-aos="zoom-in").mb-5
         .tarjeta.color-acento-botones.fit___card-sinbordes
           .row.justify-content-center.mb-4
             .col-12

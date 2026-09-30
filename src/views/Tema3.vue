@@ -6,13 +6,14 @@
         .titulo-principal__numero
           span 3
         h1 Normativa, ética y requerimientos técnicos
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center
         .col-xl.mb-4.mb-lg-0
           p El manejo del presupuesto personal requiere más que la identificación de ingresos, gastos, costos y deudas. También implica reconocer los lineamientos normativos, actuar con responsabilidad frente a la información financiera y aplicar criterios técnicos que permitan organizar los datos de manera clara y verificable. La normativa financiera, la seguridad y salud en el trabajo, los lineamientos ambientales y los principios éticos orientan el uso responsable de los recursos y fortalecen la toma de decisiones en los ámbitos personal, familiar y productivo.
           p.mb-0 La organización del presupuesto personal debe apoyarse en información real, completa y coherente con la situación económica de quien lo elabora. Cuando una persona conoce sus derechos y deberes como consumidor financiero, conserva los soportes de pago, revisa las condiciones de una deuda, registra con veracidad sus ingresos y gastos y promueve el uso responsable de los recursos, puede elaborar un presupuesto más confiable y útil para la planeación financiera.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t3/img1.png', alt='').m-auto
+      Separador
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.1 Normativa financiera aplicada a las finanzas personales
       p.mb-5 La normativa financiera aplicada a las finanzas personales permite reconocer derechos, deberes y responsabilidades al utilizar productos, servicios o mecanismos de financiación. En la vida cotidiana, se relaciona con decisiones como abrir una cuenta, solicitar un crédito, realizar compras a cuotas, utilizar una tarjeta, ahorrar en una entidad financiera o revisar información sobre costos, tasas, plazos y condiciones. Las siguientes disposiciones contribuyen a fortalecer el manejo responsable del presupuesto personal y la toma de decisiones financieras:
@@ -21,7 +22,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t3/img2.png", alt="" ).m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Ley 1328 de 2009").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Protege los derechos del consumidor financiero. Su aplicación implica revisar costos, tasas, plazos, condiciones, valor de la cuota, fecha de pago, saldo pendiente y consecuencias del incumplimiento antes de incorporar una obligación al presupuesto.
             .row(titulo="Decreto 457 de 2014").ajuste-cajaAcordion.ajuste-vineta
@@ -103,7 +104,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t3/img10.png", alt="" ).m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Agua").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Su consumo influye en el valor de los servicios públicos y en los costos de algunas actividades. Se recomienda revisar fugas, controlar los tiempos de uso y evitar desperdicios.
             .row(titulo="Energía").ajuste-cajaAcordion.ajuste-vineta
@@ -114,7 +115,7 @@
               p.mb-3 Puede incrementar los gastos variables del presupuesto. Programar recorridos, agrupar diligencias y comparar alternativas de movilidad favorece un mejor aprovechamiento de los recursos.
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Insumos y materiales").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Forman parte de los costos de actividades independientes o productivas. Es recomendable adquirir únicamente la cantidad necesaria y controlar los inventarios básicos.
             .row(titulo="Empaques y residuos").ajuste-cajaAcordion.ajuste-vineta
@@ -278,14 +279,14 @@
             .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
               h4.txt--purpura.mb-4 Veracidad
               p.mb-0 Exige que la información registrada corresponda a la realidad económica. Para ello, es recomendable respaldar los datos con recibos, facturas, extractos, comprobantes de pago, registros de ventas o anotaciones periódicas de los gastos.
-      p.mb-0 La aplicación conjunta de estos principios fortalece la confiabilidad del presupuesto personal, facilita la planeación financiera y favorece el cumplimiento de las obligaciones y las metas económicas (Ministerio de Educación, 2022).
+      p.mb-0 La aplicación conjunta de estos principios fortalece la confiabilidad del presupuesto personal, facilita la planeación financiera y favorece el cumplimiento de las obligaciones y las metas económicas (Ministerio de Educación Nacional, 2022).
       Separador
       #t_3_7.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.7 Requerimientos técnicos para el alistamiento presupuestal
       p.mb-5 Los requerimientos técnicos para el alistamiento presupuestal corresponden a las condiciones mínimas necesarias para preparar la información antes de diligenciar un presupuesto personal. Su finalidad es organizar los datos con claridad, coherencia y respaldo, de manera que el presupuesto refleje la realidad económica de la persona o del núcleo familiar y facilite la toma de decisiones. Los aspectos que deben revisarse durante el alistamiento presupuestal se resumen a continuación:
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Período de análisis").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Define si el presupuesto será semanal, quincenal, mensual o por temporada, permitiendo organizar la información según la frecuencia de los ingresos y los gastos.
             .row(titulo="Identificación de ingresos").ajuste-cajaAcordion.ajuste-vineta
@@ -302,7 +303,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t3/img32.png", alt="" ).m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Identificación de costos").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Reconoce los recursos utilizados para generar ingresos o sostener una actividad económica, evitando confundirlos con el dinero disponible para el hogar.
             .row(titulo="Conservación de soportes").ajuste-cajaAcordion.ajuste-vineta

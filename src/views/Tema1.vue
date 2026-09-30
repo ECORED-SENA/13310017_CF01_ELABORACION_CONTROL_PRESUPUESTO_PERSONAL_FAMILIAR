@@ -7,11 +7,12 @@
           span 1
         h1 Finanzas personales y diagnóstico inicial
       p.mb-5 El manejo de las finanzas personales parte del reconocimiento de la realidad económica de una persona o de un núcleo familiar. Antes de elaborar un presupuesto, es necesario comprender cómo se reciben los ingresos, en qué se utilizan los recursos, cuáles son las necesidades prioritarias, qué obligaciones existen y qué hábitos influyen en la forma de consumir, ahorrar o endeudarse. Este diagnóstico inicial permite organizar la información financiera y establecer una base confiable para tomar decisiones acordes con la capacidad económica real.
-      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
+      .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5(data-aos="zoom-in")
         .bloque-texto-g__img(
           :style="{ backgroundImage: `url(${require_src('@/assets/curso/temas/t1/img1.jpg')})` }")
         .bloque-texto-g__texto.p-4
           p.mb-0 En la vida cotidiana, muchas personas identifican sus dificultades financieras únicamente cuando el dinero no alcanza para cubrir todos los pagos del mes. Sin embargo, el problema no siempre está relacionado con el nivel de ingresos, sino también con la ausencia de registro, la falta de planeación, el uso inadecuado del crédito, la acumulación de pequeños gastos o la confusión entre necesidades y deseos. Por esta razón, el diagnóstico inicial permite pasar de una percepción general del dinero a una comprensión ordenada de la situación financiera personal.
+      Separador
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.1 Definición de finanzas personales
       .row.justify-content-center.align-items-center.mb-5
@@ -24,11 +25,11 @@
         .col-xl.fit___bottom
           figure.mb-2.d-none.d-xl-block(data-aos="fade-left")
             img(src='@/assets/curso/temas/t1/img3.svg', alt='' style="width: 70px")
-          p.mb-0 El concepto de finanzas personales también se relaciona con la capacidad de tomar decisiones informadas. Una persona toma decisiones financieras cuando elige qué comprar, cuándo pagar, cuánto ahorrar, si adquiere una deuda, si utiliza un producto financiero o si aplaza un gasto para atender una necesidad más urgente. En consecuencia, aprender sobre finanzas personales permite analizar las consecuencias de cada decisión y reconocer que el uso del dinero influye en el bienestar individual y familiar (Ministerio de Educación, 2022).
+          p.mb-0 El concepto de finanzas personales también se relaciona con la capacidad de tomar decisiones informadas. Una persona toma decisiones financieras cuando elige qué comprar, cuándo pagar, cuánto ahorrar, si adquiere una deuda, si utiliza un producto financiero o si aplaza un gasto para atender una necesidad más urgente. En consecuencia, aprender sobre finanzas personales permite analizar las consecuencias de cada decisión y reconocer que el uso del dinero influye en el bienestar individual y familiar (Ministerio de Educación Nacional, 2022).
       p.mb-5 Desde una perspectiva aplicada, las finanzas personales ayudan a responder preguntas concretas, tales como:
       .bg___carrusel
         .px-5
-          SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+          SlyderF(columnas="col-lg-6 col-xl-4" data-aos="zoom-in").mb-5
             .tarjeta.color-acento-botones.p-4
               .row.justify-content-center.mb-3
                 .col-8
@@ -206,7 +207,7 @@
             img(src='@/assets/curso/temas/t1/img3.svg', alt='' style="width: 70px")
           p.mb-0 El manejo del dinero requiere prestar atención tanto a los gastos de mayor valor como a aquellos que, aunque son pequeños, se realizan con frecuencia. #[b Compras no planificadas, domicilios, recargas, refrigerios o gastos] por impulso pueden acumularse y reducir la capacidad de ahorro sin que la persona lo advierta.
       p.mb-5 Asimismo, administrar adecuadamente el dinero implica establecer límites para cada categoría de gasto y definir prioridades. Separar primero los recursos destinados a #[b vivienda, alimentación, servicios públicos, transporte, ahorro y obligaciones financieras] facilita mantener el control del presupuesto y reduce el riesgo de utilizar el dinero en gastos que no son prioritarios. La siguiente relación presenta algunos hábitos de consumo, sus posibles efectos y acciones que contribuyen a mejorar la organización financiera:
-      SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in").mb-5
+      SlyderF(columnas="col-lg-6 col-xl-4" data-aos="zoom-in").mb-5
         .tarjeta.color-acento-botones.fit___card-sinbordes
           .row.justify-content-center.mb-4
             .col-12
@@ -259,7 +260,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t1/img32.png", alt="" ).m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Básica").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Corresponde a los gastos indispensables para la vida diaria, como alimentación, vivienda, salud y servicios públicos. Constituye la prioridad principal dentro del presupuesto.
             .row(titulo="Familiar").ajuste-cajaAcordion.ajuste-vineta

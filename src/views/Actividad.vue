@@ -23,7 +23,7 @@ export default {
       titulo: 'Cuestionario',
       introduccion:
         '<b>Objetivo:</b> verificar la apropiación de los conceptos relacionados con las finanzas personales, el diagnóstico financiero, la identificación de ingresos, gastos, deudas y soportes financieros, así como los principios y elementos necesarios para el alistamiento y la elaboración del presupuesto personal.',
-      barajarPreguntas: false,
+      barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
       preguntas: [
@@ -54,9 +54,9 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. El diagnóstico permite conocer ingresos, gastos, deudas, necesidades y hábitos financieros.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
@@ -86,7 +86,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. Las finanzas personales ayudan a organizar el dinero y tomar decisiones responsables.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -117,7 +118,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. El salario mensual es periódico y relativamente estable.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -147,7 +149,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. Su valor depende de la actividad realizada o de la frecuencia con que se genere.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -177,7 +180,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. El arriendo se paga periódicamente y suele tener un valor estable.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -207,7 +211,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. Los gastos variables pueden aumentar o disminuir según los hábitos de consumo.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -237,7 +242,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. Las necesidades son prioritarias; los deseos pueden aplazarse o ajustarse.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -267,7 +273,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. Registrar gastos permite conocer en qué se usa el dinero.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -298,7 +305,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. El presupuesto permite planear y controlar el uso del dinero.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -328,7 +336,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. Un presupuesto útil debe basarse en datos reales y verificables.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -358,7 +367,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. Los ingresos permiten conocer los recursos disponibles para el periodo.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -389,7 +399,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. Las deudas comprometen ingresos futuros y deben controlarse.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -419,7 +430,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. Estos datos permiten conocer el impacto real de la obligación.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -449,7 +461,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. Los soportes permiten verificar ingresos, gastos, pagos o deudas.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -480,7 +493,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. El recibo comprueba un gasto realizado.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -511,7 +525,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. La guía orienta el paso a paso para alistar el presupuesto.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -542,7 +557,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. El formato físico permite organizar información sin depender de herramientas digitales.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -572,7 +588,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. Las hojas electrónicas facilitan sumas, saldos y modificaciones.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -603,7 +620,8 @@ export default {
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. Indica si una persona puede asumir nuevos compromisos financieros.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
@@ -635,7 +653,8 @@ export default {
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_correcto:
+            '¡Muy bien! Ha acertado la respuesta. La lista ayuda a detectar datos faltantes antes de diligenciar el presupuesto.',
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],

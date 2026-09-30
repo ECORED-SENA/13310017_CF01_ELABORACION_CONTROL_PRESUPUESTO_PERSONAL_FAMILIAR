@@ -146,7 +146,7 @@
       p.mb-5 Estos formatos pueden organizarse por fechas, categorías o secciones, según las necesidades de cada persona. También permiten conservar los soportes financieros junto con los registros, lo que facilita la revisión y el seguimiento del presupuesto. Existen diferentes alternativas para registrar y organizar la información financiera antes de elaborar el presupuesto:
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Cuaderno de ingresos y gastos").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Registra las entradas y salidas de dinero por fecha. Se recomienda para llevar un control diario o semanal y conviene anotar cada movimiento el mismo día en que ocurre.
             .row(titulo="Planilla impresa mensual").ajuste-cajaAcordion.ajuste-vineta
@@ -161,7 +161,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t4/img17.png", alt="" ).m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Lista de deudas").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Registra el valor total, la cuota, el saldo, la fecha de pago y las observaciones. Resulta adecuada cuando existen créditos, préstamos o compras a cuotas y requiere actualizar el saldo después de cada pago.
             .row(titulo="Registro de ahorro").ajuste-cajaAcordion.ajuste-vineta
@@ -253,55 +253,55 @@
                       td.ajuste-border-tabla.texto-left Ingreso
                       td.ajuste-border-tabla.texto-left Salario
                       td.ajuste-border-tabla.texto-left $ 1.500.000
-                      td.ajuste-border-tabla.texto-left 
+                      td.ajuste-border-tabla.texto-left -
                       td.texto-left $ 1.500.000
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold 03/07/2026
                       td.ajuste-border-tabla.texto-left Ingreso
                       td.ajuste-border-tabla.texto-left Venta de postres
                       td.ajuste-border-tabla.texto-left $ 250.000
-                      td.ajuste-border-tabla.texto-left 
+                      td.ajuste-border-tabla.texto-left -
                       td.texto-left $ 1.750.000
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold 05/07/2026
                       td.ajuste-border-tabla.texto-left Vivienda
                       td.ajuste-border-tabla.texto-left Arriendo
-                      td.ajuste-border-tabla.texto-left 
+                      td.ajuste-border-tabla.texto-left -
                       td.ajuste-border-tabla.texto-left $ 500.000
                       td.texto-left $ 1.250.000
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold 06/07/2026
                       td.ajuste-border-tabla.texto-left Servicios
                       td.ajuste-border-tabla.texto-left Agua y energía
-                      td.ajuste-border-tabla.texto-left 
+                      td.ajuste-border-tabla.texto-left -
                       td.ajuste-border-tabla.texto-left $ 180.000
                       td.texto-left $ 1.070.000
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold 08/07/2026
                       td.ajuste-border-tabla.texto-left Transporte
                       td.ajuste-border-tabla.texto-left Pasajes
-                      td.ajuste-border-tabla.texto-left 
+                      td.ajuste-border-tabla.texto-left -
                       td.ajuste-border-tabla.texto-left $ 120.000
                       td.texto-left $ 950.000
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold 10/07/2026
                       td.ajuste-border-tabla.texto-left Alimentación
                       td.ajuste-border-tabla.texto-left Mercado
-                      td.ajuste-border-tabla.texto-left 
+                      td.ajuste-border-tabla.texto-left -
                       td.ajuste-border-tabla.texto-left $ 320.000
                       td.texto-left $ 630.000
                     tr.ajuste-color-tabla
                       td.ajuste-border-tabla.texto-left.text-weight-bold 12/07/2026
                       td.ajuste-border-tabla.texto-left Deuda
                       td.ajuste-border-tabla.texto-left Cuota préstamo
-                      td.ajuste-border-tabla.texto-left 
+                      td.ajuste-border-tabla.texto-left -
                       td.ajuste-border-tabla.texto-left $ 150.000
                       td.texto-left $ 480.000
                     tr
                       td.ajuste-border-tabla.texto-left.text-weight-bold 15/07/2026
                       td.ajuste-border-tabla.texto-left Ahorro
                       td.ajuste-border-tabla.texto-left Fondo de emergencia
-                      td.ajuste-border-tabla.texto-left 
+                      td.ajuste-border-tabla.texto-left -
                       td.ajuste-border-tabla.texto-left $ 100.000
                       td.texto-left $ 380.000
                     tr.ajuste-color-tabla
@@ -319,7 +319,7 @@
           figure.d-none.d-xl-block
             img(src="@/assets/curso/temas/t4/img26.png", alt="" ).m-auto
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-left")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-left")
             .row(titulo="Facilidad de uso").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Evaluar el nivel de comodidad para registrar la información. Si se prefiere el registro manual, puede utilizarse un cuaderno, una planilla impresa o un formato sencillo.
             .row(titulo="Acceso a tecnología").ajuste-cajaAcordion.ajuste-vineta
@@ -332,7 +332,7 @@
               p.mb-3 Revisar si existen créditos, préstamos, compras a cuotas u otras obligaciones. En estos casos, conviene utilizar un formato que incluya cuotas, fechas de pago y saldos pendientes.
       .row.align-items-center.mb-5
         .col-xl
-          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+          AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul" data-aos="fade-right")
             .row(titulo="Metas de ahorro").ajuste-cajaAcordion.ajuste-vineta
               p.mb-3 Determinar si es necesario hacer seguimiento al cumplimiento de objetivos financieros mediante registros de aportes y saldo acumulado.
             .row(titulo="Actividad independiente").ajuste-cajaAcordion.ajuste-vineta
@@ -608,7 +608,7 @@
             h4 Herramientas y conceptos básicos para el alistamiento
             p.mb-0 Se invita a leer el documento #[b Herramientas y conceptos básicos para el alistamiento], donde se aborda la preparación del presupuesto personal mediante el uso de herramientas digitales y conceptos fundamentales de matemática financiera.
           .col-xl-2
-            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexos/Anexo_01_Herramientas_Conceptos_Basicos_Alistamiento.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.texto-negro(:href="obtenerLink('/downloads/Anexo_01_Herramientas_Conceptos_Basicos_Alistamiento.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
 
