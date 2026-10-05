@@ -473,13 +473,13 @@ export default {
         },
         {
           nombre: 'Maria Carolina Tamayo Lopez',
-          cargo: 'locutora',
+          cargo: 'Locutora',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'German Acosta Ramos',
-          cargo: 'locutor',
+          cargo: 'Locutor',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
